@@ -1,0 +1,315 @@
+
+.nav{
+    font-family:Century Gothic;
+    font-size: 18px;
+	display: block;
+	float: left;
+	width:100%;
+	background-color: #ff1a8c;
+	position: relative;
+	list-style: none;
+	padding:0px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+    height:7%
+    
+
+}
+
+
+.nav li{
+	float: left;
+	position: relative;
+	margin-right: 50px;
+	padding: 10px;
+
+}
+.nav a{
+	display: block;
+	padding: 3px;
+	color:white;
+	text-decoration: none;
+
+}
+.nav a:hover{
+	background-color:lightcoral;
+	text-decoration: underline;
+/*----dropdown---*/
+
+}
+.nav ul{
+	background-color:purple;
+	list-style: none;
+	position: absolute;
+	left:-9999px;
+
+}
+.nav ul li{
+	padding: 1px;
+	float:none;
+}
+.nav ul a{
+	white-space: nowrap;
+}
+.nav li:hover ul{
+	left:0;
+}
+.nav li:hover a{
+
+	text-decoration: underline;
+}
+.nav li:hover ul a{
+	text-decoration: none;;
+}
+.nav li:hover ul li a:hover{
+	background-color:gray;
+
+}
+.image{
+    margin:0;
+	padding: 0;
+}
+.heading{
+	font-family:Century Gothic;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+.service-block{
+	width:40%;
+	height:35%;
+	float: left;
+	margin-left:100px;
+}
+
+.design{
+	text-align: center;
+	padding-top:150px;
+	font-size: 30px;
+	
+
+}
+.link{
+	
+	color:black;
+}
+.link:hover{
+		color: white;
+
+}
+.heading1{
+
+font-family:Century Gothic;
+font-weight: bold;
+font-size: 17px;
+padding-left: 450px;
+padding-top: 20px;
+text-align: center;
+}
+
+/*.slidershow{
+	width:800px;
+	height: 600px;
+	overflow: hidden;
+
+
+}
+.middle{
+	position: absolute;
+	left: 25%;
+
+
+}
+.navigation{
+	position: absolute;
+	bottom:20px;
+	left:50%;
+	transform: translate(-50%);
+	display: flex;
+}
+.bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.bar:hover{
+	background: #fff;
+}
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+.slide{
+	width: 20%;
+	transition: 0.6s;
+}
+
+
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: 60%;
+}
+#r3:checked ~ .s1{
+	margin-left:80%;
+}*/
+
+
+/* image slider
+
+.slider{
+	overflow: hidden;
+}
+.slider figure{
+	position: relative;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+.slider figure img{
+	width:25%;
+	float: left;
+	margin-top: 10px;
+
+	
+}
+@keyframes slider{
+	0%{left:0;}
+	50%{left:-500}
+	100%{left:0
+
+	}*/
+	/*.center{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 450px;
+		width: 800px;
+		box-shadow: 0px 5px 8px rgba(0,0,0,.3);
+		overflow: hidden;
+	  }
+	  .images{
+		height: 100%;
+		width: 500%;
+		display: flex;
+	  }
+	  .images img{
+		width: 100%;
+		height: 100%;
+	  }
+	  .images .slide{
+		width: 20%;
+		transition: .6s;
+	  }
+	  .buttons{
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+	  }
+	  .buttons a{
+		height: 8px;
+		width: 30px;
+		border: 2px solid white;
+		margin: 0 5px;
+		border-radius: 10px;
+	  }
+	  a.active{
+		transition: .5s;
+		transform: scale(0.999);
+		background: white;
+		animation: animate .4s;
+	  }
+	  @keyframes animate {
+		100%{
+		  transform: scale(0.8);
+		}
+	  }*/
+	  .slidershow{
+		width:1000px;
+		height: 600px;
+		overflow: hidden;
+	  }
+	  .middle{
+		position: absolute;
+		top: 230%;
+		left: 20%;
+	
+	  }
+	  .navigation{
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+	  }
+	  .bar{
+		width: 30px;
+		height: 5px;
+		border: 2px solid #fff;
+		margin: 6px;
+		cursor: pointer;
+		transition: 0.4s;
+	  }
+	  .bar:hover{
+		background: #fff;
+	  }
+	  
+	  input[name="r"]{
+		  position: absolute;
+		  visibility: hidden;
+	  }
+	  
+	  .slides{
+		width:500%;
+		height: 100%;
+		display: flex;
+	  }
+	  
+	  .slide{
+		width: 20%;
+		transition: 0.6s;
+		background-size: cover;
+
+
+	  }
+	  .slide style{
+		width: 100%;
+		height: 100%;
+
+	  }
+	  
+	  #r1:checked ~ .s1{
+		margin-left: 0;
+	  }
+	  #r2:checked ~ .s1{
+		margin-left: -20%;
+	  }
+	  #r3:checked ~ .s1{
+		margin-left: -40%;
+	  }
+	  #r4:checked ~ .s1{
+		margin-left: -60%;
+	  }
+	  #r5:checked ~ .s1{
+		margin-left: -80%;
+	  }
+	  .text{
+		font-family:Century Gothic;
+		font-size: 17px;
+		padding-top: 100px;
+		text-align: center;
+		color: #fff;
+	  }
+		
+	
+		
+	  
+	  

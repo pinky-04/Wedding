@@ -1,0 +1,252 @@
+
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="d1.css">
+      <link rel="stylesheet"  href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>
+        </title>
+
+
+    </head>
+    <body>
+
+    <!-- Links -->
+    
+    <ul class="nav">
+      <li>
+        <a href="d1.html">HOME</a>
+      </li>
+
+      <!-- Dropdown -->
+    
+
+    
+      <li><a href="#">SERVICES
+        <i class ="fa fa-caret-down"></i></a>
+
+       <ul>
+           <li><a  href="wedding venue/wedding_venue.html">VENUE</a></li>
+           <li> <a  href="wedding photography/wedding_photography.html">PHTOGRAPHER</a></li>
+           <li> <a  href="wedding decoration/wedding_decoration.html">DECORATION</a></li>
+          <li> <a  href="wedding invitation/wedding_invitation.html">INVITATION</a></li>
+       </ul>
+      
+    </li>
+      <li>
+        <a href="#">
+          GALLERY
+          <i class ="fa fa-caret-down"></i>
+
+        </a>
+        <ul>
+          
+          <li><a href="gallery/gallery.html#haldi">HALDI</a></li>
+         <li> <a href="gallery/gallery.html#mehendi">MEHENDI</a></li>
+         <li> <a href="gallery/gallery.html#theweddingday">THE WEDDING DAY</a></li>
+          <li><a href="gallery/gallery.html#reception">RECEPTION</a></li>
+          </ul>
+        
+      </li> 
+      <li>
+        <a href="contact/contact.html">CONTACT</a>
+      </li>
+    </ul>
+  
+  
+
+    <div class="image">
+<img src="logo.jpg"/>
+</div>
+<br>
+<p class="heading">SERVICES</p>
+<hr style="width: 25%;">
+<br>
+
+<a href="wedding venue/wedding_venue.html" class="link">
+<div class="service-block" style="background-image: url('d1/home/venue.png')">
+  <div class="design">VENUE</div>
+
+
+
+  </div>
+</a>
+<a href="wedding decoration/wedding_decoration.html" class="link">
+<div class="service-block" style="background-image:url('d1/home/deco-3.jpg')">
+<div class="design">DECORATION</div>
+</div>
+</a>
+<br>
+<br>
+<br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<a href="wedding photography/wedding_photography.html" class="link">
+<div class="service-block" style="background-image: url('d1/home/photo-1.jpg')">
+  <div class="design">PHOTOGRAPHY</div>
+  </div>
+</a>
+
+
+<a href="wedding invitation/wedding_invitation.html" class="link">
+  <div class="service-block" style="background-image: url('d1/home/invite.jpg')">
+    <div class="design">INVITATION</div>
+    </div>
+  </a>
+  <br>
+<br>
+<br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+
+
+
+<p class="heading">WEDDING STORIES</p>
+<hr style="width: 25%;">
+<!-----img slider
+-->
+<!------------<div class="slider">
+<figure>
+  <img class="service-block" src="d1/home/couple-1.jpg">
+  <br>
+
+  <img class="service-block" src="d1/home/couple-4.png">
+  <br>
+
+  <img class="service-block" src="d1/home/couple-3.jpg">
+</figure>
+</div>--------->
+<!------------<div class="slidershow middle">
+  <div class="slides">
+    <input type="radio" name="r" id="r1"  checked>
+    <input type="radio" name="r" id="r2">
+    <input type="radio" name="r" id="r3">
+
+    <div class="slide">
+      <img src="d1/home/couple-1.jpg">
+    </div>
+    <div class="slide">
+      <img src="d1/home/couple-3.jpg">
+    </div>
+    <div class="slide">
+      <img src="d1/home/couple-4.png">
+    </div>
+
+  </div>
+  <div class="navigation">
+    <label for="r1" class="bar"></label>
+    <label for="r2" class="bar"></label>
+    <label for="r3" class="bar"></label>
+
+
+  </div>
+</div>---------->
+<!-----------------<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+  <div class="center">
+    <div class="images">
+      <div class="slide img1"><img src="d1/home/couple-1.jpg"></div>
+      <div class="slide"><img src="d1/home/couple-2.png"></div>
+      <div class="slide"><img src="d1/home/couple-3.jpg"></div>
+      <div class="slide"><img src="d1/home/couple-4.png"></div>
+      <div class="slide"><img src="d1/home/couple-1.jpg"></div>
+    </div>
+    <div class="buttons">
+      <a href="#" class="btn1 active"></a>
+      <a href="#" class="btn2"></a>
+      <a href="#" class="btn3"></a>
+      <a href="#" class="btn4"></a>
+      <a href="#" class="btn5"></a>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('.btn1').click(function(){
+        $('.img1').css("marginLeft","0");
+      });
+      $('.btn2').click(function(){
+        $('.img1').css("marginLeft","-20%");
+      });
+      $('.btn3').click(function(){
+        $('.img1').css("marginLeft","-40%");
+      });
+      $('.btn4').click(function(){
+        $('.img1').css("marginLeft","-60%");
+      });
+      $('.btn5').click(function(){
+        $('.img1').css("marginLeft","-80%");
+      });
+      $('a').click(function(){
+        $(this).addClass('active').siblings()
+                .removeClass('active');
+      })
+    });
+
+  </script>----------->
+  <div class="slidershow middle">
+
+    <div class="slides">
+      <input type="radio" name="r" id="r1" checked>
+      <input type="radio" name="r" id="r2">
+      <input type="radio" name="r" id="r3">
+      <input type="radio" name="r" id="r4">
+      <input type="radio" name="r" id="r5">
+      <div class="slide s1" style="background-image:url('d1/home/couple-1.jpg')" alt="">
+      <div class="text">
+        <h2 style="font-weight:600;margin-top: 200px;">Aditi & Gunjan</h2>
+      </div>
+      <p style="color:white; font-family: Century Gothic; text-align: center; padding-left: 70px; padding-right: 70px;">
+        TO,<br>
+        Made In Heaven<br><br>
+        A big thanks to you and your team!!<br>
+        The moment we decided on having a wedding, the first thing that came to my mind was-the location and the venue.
+      		There are lot of websites providing details but not many actually help you in real when you're looking for the venue.And also I'm so glad that we chose 'Made In Heaven' for this.The location was just perfect for my wedding.The property was gorgeous.The staff was courteous.Fantastic job,guys!
+</p>
+      </div>
+
+
+      <div class="slide" style="background-image:url('d1/home/couple-2.png')" alt="">
+        <h2 style="text-align: center;font-weight: 700; margin-top: 400px; font-family: Century Gothic;">Darshna & Amit</h2>
+        <p style="font-family:Century Gothic; text-align: center; padding-left: 70px;padding-right: 70px;">Thanks made in heaven for helping us plan the wedding. You guys set the perfect pitch for this partnership. Kudos to your team</p>
+      </div>
+
+    <div class="slide" style="background-image: url('d1/home/couple-3.jpg'); padding-right:0%;">
+        <h2 style="font-family: Century Gothic;text-align: center; margin-top: 400px; color: white;">Swati & Kunjan</h2>
+        <p style="font-family:Century Gothic; text-align: center;color: white;">I always told Kunjan that once we are engaged, we will be so engrossed in preparing for the wedding that we'll lose the actual meaning of a courtship. But thanks to you guys, we are thoroughly enjoying this our courtship period because you guys have given us a bouquet of the best artists and services and now all we have to do is pick and book without wasting any time :)</p>
+
+  
+      </div>
+      <div class="slide" style="background-image:url('d1/home/couple-4.png')" alt="">
+       <h2 style="font-family: Century Gothic; text-align: center; margin-top: 400px;">Aarohi & Aayush</h2>
+       <p style="font-family:Century Gothic; text-align: center; padding-left: 70px; padding-right: 70px;">If you're looking for the perfect wedding planner for your D-day,this is the one!A big thanks to Made In Heaven for making our wedding so memorable and in real sense making our wedding look made in heaven! Was fun working with your entire team. </p>
+
+
+      </div>
+      <div class="slide" style="background-image:url('d1/home/couple-1.jpg')" alt="">
+        <div class="text">
+          <h2 style="font-weight:600;margin-top: 200px;">Aditi & Gunjan</h2>
+        </div>
+        <p style="color:white; font-family: Century Gothic; text-align: center; padding-left: 70px; padding-right: 70px;">
+          TO,<br>
+          Made In Heaven<br><br>
+          A big thanks to you and your team!!<br>
+          The moment we decided on having a wedding, the first thing that came to my mind was-the location and the venue.
+            There are lot of websites providing details but not many actually help you in real when you're looking for the venue.And also I'm so glad that we chose 'Made In Heaven' for this.The location was just perfect for my wedding.The property was gorgeous.The staff was courteous.Fantastic job,guys!
+  </p>
+        </div>
+  
+    </div>
+
+    <div class="navigation">
+      <label for="r1" class="bar"></label>
+      <label for="r2" class="bar"></label>
+      <label for="r3" class="bar"></label>
+      <label for="r4" class="bar"></label>
+      <label for="r5" class="bar"></label>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+
